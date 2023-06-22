@@ -22,7 +22,7 @@
  * @line_buf: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO Alx project
  */
 typedef struct globales_s
 {
@@ -41,7 +41,7 @@ extern globales_t globalvar;
  * @next: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO Alx project
  */
 typedef struct stack_s
 {
@@ -56,7 +56,7 @@ typedef struct stack_s
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO Alx project
  */
 typedef struct instruction_s
 {
@@ -136,4 +136,4 @@ int check_opcode(stack_t *stack);
 */
 
 
-
+#endif
