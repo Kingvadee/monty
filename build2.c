@@ -35,7 +35,7 @@ void pop(stack_t **stack, unsigned int line_number)
 		temp2 = temp2->next;
 		d++;
 	}
-	if (s == 0 && flag == 0)
+	if (s	== 0 && flag == 0)
 	{
 
 		free(*stack);
@@ -76,7 +76,7 @@ void add(stack_t **stack, unsigned int line_number)
 	while (d < (s - 1))
 	{
 		temp2 = temp2->next;
-		j++;
+		d++;
 	}
 	if (s == 0 && flag == 0)
 		free_dlistint(*stack), op_e(line_number, "add");
@@ -199,4 +199,4 @@ void pchar(stack_t **stack, unsigned int line_number)
 		pchar_e(line_number, "value out of range");
 	}
 	printf("%c\n", temp->n);
-}i
+}
