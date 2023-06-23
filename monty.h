@@ -66,7 +66,7 @@ typedef struct instruction_s
 
 /* main.c */
 int main(int argc, char **argv);
-
+	
 /* node functions */
 stack_t *create_node_stackfirst(stack_t **stack, int n);
 stack_t *create_node_stackend(stack_t **stack, int n);
